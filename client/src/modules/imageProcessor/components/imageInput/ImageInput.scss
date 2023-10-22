@@ -1,0 +1,24 @@
+.image-upload {
+    max-width: 60%;
+    padding: 2em;
+    border-radius: 2em;
+    box-shadow:  5px 5px 20px rgba($color: #000000, $alpha: 0.35);
+    background-color: #fff;
+    align-self: center;
+    text-align: center;
+    &__dragover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2em 4em;
+        border-radius: 2em;
+        border: 1px dashed;
+    }
+    img {
+        width: 50%;
+    }
+    p {
+        font-size: 1.5em;
+    }
+}

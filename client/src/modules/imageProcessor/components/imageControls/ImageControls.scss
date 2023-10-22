@@ -1,0 +1,33 @@
+.image-controls {
+    height: 60px;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    &__submit {
+        margin-right: 1em;
+    }
+    &__input {
+        label {
+            cursor: inherit;
+        }
+        margin-right: 1em;
+    }
+    &__opacity {
+        min-height: 2.5em;
+        position: relative;
+        input {
+            min-height: 2.5em;
+            width: 200px;
+            margin: 0;
+        }
+        span {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, 0);
+            font-size: 1.2em;
+            font-weight: 600;
+            user-select: none;
+        }
+    }
+}
